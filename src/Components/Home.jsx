@@ -19,6 +19,7 @@ const Home = () => {
               className="w-full max-w-sm md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto"
               src="https://png.pngtree.com/png-vector/20240320/ourmid/pngtree-taking-books-from-library-flat-png-image_12017697.png"
               alt="Library Management System"
+              title="View Books"
               id="librarian_img"
             />
           </Link>

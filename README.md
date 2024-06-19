@@ -1,84 +1,43 @@
-# Library Book Management System
+# Project Title
 
-Welcome to the Library Book Management System, a project built using Formik hooks for managing library books efficiently. This system provides CRUD (Create, Read, Update, Delete) operations to manage your library's collection effectively.
+The Librarian : A simple beginner level project to learn how to utilise Formik validation.
 
-## Introduction
+## Documentation
 
-This project utilizes Formik hooks within React to facilitate the management of library books. With Formik, you can easily handle form validation, submission, and data manipulation, ensuring a smooth user experience.
+The Librarian : Library Management System portal contains admin dashboards in which an admin can organize the existing books. He/she can view, edit, delete and create.
 
-### Demo
+- CREATE: Click "Create" menu item to add a new book to the library.
+- READ: Click "Dashboard" menu item or you can click the "View Book" image from the Home page to view the list of available Books.
+- UPDATE: To update a book or author information, got to the Dashboard and click on the book/author which needs change and click on the Edit button. And in the Edit page one can add the required information and this is where the Formik validation is utilized.
+- DELETE: To remove a book from the Library list, go to Dashboard and select the book and click on Delete button and it deleted the book from the endpoint.
 
-Explore the demo of this project: https://formik-crud-01.netlify.app/
+# 💻 Tech Stack:
 
-## Reflections and Lessons Learned
+[![My Skills](https://skillicons.dev/icons?i=react,css,bootstrap,git,netlify,tailwind)](https://skillicons.dev)
 
-Throughout the development of this project, several key insights and lessons were gained:
+## API Reference
 
-- **Seamless Form Management**: Formik simplifies the process of managing forms within React components, allowing for effortless validation and submission handling.
+https://666e23087a3738f7cace1311.mockapi.io/books
 
-- **Efficient Data Handling**: Utilizing Formik's capabilities, data manipulation and CRUD operations become streamlined, enhancing the overall efficiency of the application.
+## Demo
 
-- **Enhanced User Experience**: With Formik, users experience a seamless flow when interacting with forms, leading to improved usability and satisfaction.
+https://reactaxiosstudentdata.netlify.app/
 
-## Technology Stack
+During testing you can use beloe provided sample inputs.
 
-This project is built using the following technologies:
+Book Details:
+Title: When The Tik-Tik Sings
+ISBN: 1234567890123 (it must be 13 digits)
+Published: add a date
+Book Cover Image: https://m.media-amazon.com/images/I/91iguWARgvL._SL1500_.jpg
+About : "In a sleepy, historical Iowa town, tourist season is in full swing, and the strangest serial killer the world has ever known is roaming at will.
 
-- React
-- Formik Hook
-- HTML5
-- CSS3
-- Bootstrap
-- Tailwind CSS
-- JavaScript
+It begins with a house explosion, a severely burned man, and an unidentified female body. More victims follow, each bearing an identical wound and accompanied by eerie, musical ticking.
 
-## Tools Used
+When the lead homicide investigator goes missing, Police Sergeant Erin Vanderjagt is forced into the fray and a personal hell she never imagined. As the murders continue, what can Erin do, where can she go, how can she fight the horror... When the Tik-Tik sings?"
 
-The following tools were utilized during the development of this project:
-
-- Visual Studio Code
-- Git
-- Netlify
-
-## Screenshots
-
-### Home Page
-
-![image](https://github.com/Prakash-V-S/formikCRUD/assets/141955456/0a0ee69e-3bc6-436d-95ff-cd083045c47b)
-
-
-### Dashboard
-
-![image](https://github.com/Prakash-V-S/formikCRUD/assets/141955456/8cbcc5c5-e65d-4354-8bd9-b8cb35ebb291)
-
-
-### Library Book Data
-
-![image](https://github.com/Prakash-V-S/formikCRUD/assets/141955456/b194bce6-bfb3-42e9-b1c8-1c78ec166c1d)
-
-
-### Create & Edit Library Book Data
-
-![image](https://github.com/Prakash-V-S/formikCRUD/assets/141955456/0c83ea48-f98b-4bb2-ae9b-441a0426d300)
-
-
-## Setup
-
-To run this project, ensure you have the following installed:
-
-- Node.js
-- npm
-
-Then, follow these steps:
-
-1. Clone the repository.
-2. Navigate to the project directory in your terminal.
-3. Run `npm install` to install the project dependencies.
-4. Run `npm run dev` to start the development server.
-5. Open [http://localhost:5173](http://localhost:5173) in your browser to view the application.
-
-## Feedback
-
-Your feedback is valuable! If you have any suggestions or questions, please feel free to reach out to me at prakashvs.official@gmail.com.
-
-Happy coding! 🚀
+Author Details:
+Author Name: Doug Lamoreux
+Date of Birth: add a date
+Author Image URL: https://images.squarespace-cdn.com/content/v1/5c43ca2e12b13fadfc796ed5/2604770e-aee0-426d-b2e0-a7821c50fcd8/doug+lamoreux.jpg
+Biography: "Doug Lamoreux is the last, maybe the least, Renaissance man. He's a romantic dreamer, a melancholy man who laughs a lot. He's a father of three strong sons and has two darling granddaughters"
