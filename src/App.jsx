@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Header from "./Components/Header";
 import Dashboard from "./Components/Dashboard";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Create from "./Components/Create";
@@ -12,8 +11,6 @@ import Details from "./Components/Details";
 import Edit from "./Components/Edit";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <BrowserRouter>

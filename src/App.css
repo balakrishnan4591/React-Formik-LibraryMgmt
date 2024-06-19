@@ -3,8 +3,6 @@ html {
 }
 
 #navbar {
-  /* background-image: url("https://www.vvlibrary.in/Images/Slide/1.jpg"); */
-  /* background-image: url("https://www.readerscorner.in/assets/site/images/banner_library.jpg"); */
   background-image: url("https://www.racgp.org.au/FSDEDEV/media/images/HeroImages/JM-banner.jpg");
 
   box-shadow: 0px 4px 8px 0px black;

@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 const Card = ({ data }) => {
   const { id, title, bookImg, authorImg, about, name, pub } = data;
-  // const { img: bookImg, title, about } = book;
-  // const { img: authorImg, name, pub } = author;
 
   const defaultBookImgUrl =
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiZV0WxURh4QRU50JJMkKrbIC2Enn77UUqOwKbRb8R-wopOA7Tm2M1jFuVthM3TDyvsWY&usqp=CAU";

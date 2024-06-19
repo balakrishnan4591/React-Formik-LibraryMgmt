@@ -14,7 +14,6 @@ const Details = () => {
   const defaultAuthorImgUrl =
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiZV0WxURh4QRU50JJMkKrbIC2Enn77UUqOwKbRb8R-wopOA7Tm2M1jFuVthM3TDyvsWY&usqp=CAU";
   const handleDelete = async (id) => {
-    // var result = confirm("Are you sure you want to delete?");
     var result = true;
     if (result) {
       let res = await axiosService.delete(`/books/${id}`);
@@ -90,17 +89,18 @@ const Details = () => {
         </div>
       </div>
       <div className="mt-6" id="button_action">
+        {/* Edit */}
         <Link
           to={`/dashboard/${data.id}/edit`}
           className="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 mr-4 inline-block"
         >
           Edit
         </Link>
+        {/* Delete */}
         <button
           to="/dashboard"
           className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 mr-4 inline-block"
           onClick={() => {
-            // Implement delete functionality
             handleDelete(data.id);
             console.log("Delete button clicked");
           }}

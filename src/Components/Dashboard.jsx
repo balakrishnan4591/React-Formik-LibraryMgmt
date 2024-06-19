@@ -9,7 +9,6 @@ const Dashboard = () => {
 
   const getData = async () => {
     try {
-      // const res = await axiosService.get("/users");
       const res = await axiosService.get("/books");
       if (res.status === 200) {
         setUser(res.data);
@@ -29,6 +28,7 @@ const Dashboard = () => {
     <div className="row py-4 mx-2 justify-center">
       {loading ? (
         <>
+          {/* loading image/gif */}
           <img
             className="w-52 justify-center flex"
             src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif"

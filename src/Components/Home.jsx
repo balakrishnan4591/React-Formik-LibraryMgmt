@@ -6,8 +6,7 @@ const Home = () => {
     <div className="container mt-3">
       <div className="row">
         <div className="col text-center">
-          {/* Apply Bootstrap and Tailwind CSS classes to make the image responsive */}
-
+          {/* Home page with a redirection image to Dashboard page, where we can view the list of books */}
           <Link to="/dashboard">
             <h1
               className="text-xl font-bold underline"

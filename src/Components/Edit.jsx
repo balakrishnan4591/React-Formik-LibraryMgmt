@@ -7,7 +7,6 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { axiosService } from "../Utilities/Apiservices";
 import { useNavigate, useParams } from "react-router-dom";
-import axios from "axios";
 
 function Create() {
   const navigate = useNavigate();
@@ -32,7 +31,7 @@ function Create() {
   const getUserData = async () => {
     const { id } = params;
     try {
-      console.log("insded getUserData: " + id);
+      //console.log("insded getUserData: " + id);
       const response = await axiosService.get(`/books/${id}`);
       console.log(response);
       if (response.status === 200) {
@@ -66,7 +65,7 @@ function Create() {
       bookImg: Yup.string().required("Image URL is required"),
 
       name: Yup.string().required("Author name is Required"),
-      birth: Yup.date().required("birth date Required"),
+      birth: Yup.date().required("DOB date Required"),
       bio: Yup.string().required("Biography is required"),
       authorImg: Yup.string().required("Image URL is required"),
     }),
