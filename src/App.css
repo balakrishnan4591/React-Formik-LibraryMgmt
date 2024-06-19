@@ -1,0 +1,268 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  /* background-image: url("https://www.vvlibrary.in/Images/Slide/1.jpg"); */
+  /* background-image: url("https://www.readerscorner.in/assets/site/images/banner_library.jpg"); */
+  background-image: url("https://www.racgp.org.au/FSDEDEV/media/images/HeroImages/JM-banner.jpg");
+
+  box-shadow: 0px 4px 8px 0px black;
+}
+
+.navbar-brand {
+  font-size: xx-large !important;
+  font-weight: bolder !important;
+  color: white !important;
+  font-family: monospace !important;
+}
+
+.navbar-brand:hover {
+  color: gold !important;
+}
+
+#librarian_img {
+  transition: 1s ease;
+}
+
+#librarian_img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+#grid_background {
+  background-color: rgb(0, 0, 0);
+}
+
+.text-white-500 {
+  color: white;
+  font-size: 13px;
+}
+
+.text-white-900 {
+  color: rgb(236, 223, 150);
+}
+
+.text-white-1000 {
+  color: black;
+  text-align: center;
+}
+
+#text_area {
+  padding-top: 50px;
+}
+
+#button_action {
+  text-align: center;
+}
+
+#edit_title {
+  text-align: center;
+}
+
+#book_edit_section,
+#author_edit_section {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#details {
+  text-align: center !important;
+}
+
+#img-details {
+  text-align: center !important;
+}
+
+#author-info {
+  justify-content: center !important;
+}
+
+#edit_btn {
+  text-align: center !important;
+}
+
+.text-yellow-400 {
+  /* font-size: large !important; */
+  font-weight: bolder !important;
+  color: white !important;
+}
+
+.text-yellow-400:hover {
+  font-size: large !important;
+  font-weight: bolder !important;
+  color: gold !important;
+}
+
+.main-card {
+  box-shadow: 0px 4px 8px skyblue;
+}
+
+.main-card:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.75);
+}
+
+/*  */
+.main-card .col-md-4 {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px; /* Adjust padding as needed */
+}
+
+.main-card img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%; /* Ensure image height doesn't exceed container height */
+  object-fit: contain; /* Maintain image aspect ratio */
+}
+/* img  */
+.circular-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+.circular-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* home btn */
+
+.tg {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+}
+.tg button {
+  z-index: 1;
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  padding: 0 20px;
+  background-color: #717b85;
+  border: 1px solid #6e7881;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 48px;
+  text-decoration: none;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 0 #e5e5e5;
+  -webkit-box-shadow: 0 1px 0 #e5e5e5;
+  -moz-box-shadow: 0 1px 0 #e5e5e5;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+.tg button:hover {
+  animation: bounceEx3 1.5s ease;
+  -webkit-animation: bounceEx3 1.5s ease;
+  transform-origin: bottom;
+  -webkit-transform-origin: bottom;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  font-size: small;
+  margin-top: 20px;
+}
+
+@keyframes bounceEx3 {
+  0% {
+    transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+  }
+  10% {
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+  }
+  20% {
+    transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+  }
+  30% {
+    transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+  }
+  40% {
+    transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+  }
+  50% {
+    transform: skewX(-15deg);
+    -webkit-transform: skewX(-15deg);
+  }
+  60% {
+    transform: skewX(15deg);
+    -webkit-transform: skewX(15deg);
+  }
+  70% {
+    transform: skewX(-5deg);
+    -webkit-transform: skewX(-5deg);
+  }
+  85%,
+  100% {
+    transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+  }
+}
+@-webkit-keyframes bounceEx3 {
+  0% {
+    transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+  }
+  10% {
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+  }
+  20% {
+    transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+  }
+  30% {
+    transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+  }
+  40% {
+    transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+  }
+  50% {
+    transform: skewX(-15deg);
+    -webkit-transform: skewX(-15deg);
+  }
+  60% {
+    transform: skewX(15deg);
+    -webkit-transform: skewX(15deg);
+  }
+  70% {
+    transform: skewX(-5deg);
+    -webkit-transform: skewX(-5deg);
+  }
+  85%,
+  100% {
+    transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+  }
+}
+/*  */
