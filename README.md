@@ -21,9 +21,9 @@ https://666e23087a3738f7cace1311.mockapi.io/books
 
 ## Demo
 
-https://reactaxiosstudentdata.netlify.app/
+https://reactformikvalidationlibrarymgmt.netlify.app/
 
-During testing you can use beloe provided sample inputs.
+During testing feel free to use the below inputs.
 
 Book Details:
 
